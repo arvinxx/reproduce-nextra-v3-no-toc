@@ -1,0 +1,18 @@
+import RemoteMDX from "../../../components/RemoteMDX";
+
+import json from "../../../const/self-hosting.en.json";
+import { buildRemoteMdx } from "../../../utils/buildRemoteMdx";
+
+export const getStaticProps = async ({ params }) =>
+  await buildRemoteMdx(json, "en", params);
+
+export const getStaticPaths = () => ({
+  fallback: "blocking",
+  paths: json.filePaths.map((filePath) => {
+    return {
+      params: { slug: filePath.replace(/\.mdx?$/, "").split("/") },
+    };
+  }),
+});
+
+<RemoteMDX />

@@ -1,0 +1,26 @@
+{
+  "branch": "docs/test",
+  "docsPath": "docs/self-hosting/",
+  "filePaths": [
+    "advanced/analytics.zh-CN.mdx",
+    "advanced/authentication.zh-CN.mdx",
+    "advanced/upstream-sync.zh-CN.mdx",
+    "environment-variables.zh-CN.mdx",
+    "environment-variables/basic.zh-CN.mdx",
+    "environment-variables/model-provider.zh-CN.mdx",
+    "examples/azure-openai.zh-CN.mdx",
+    "examples/ollama.zh-CN.mdx",
+    "faq/no-v1-suffix.zh-CN.mdx",
+    "faq/proxy-with-unable-to-verify-leaf-signature.zh-CN.mdx",
+    "platform/docker-compose.zh-CN.mdx",
+    "platform/docker.zh-CN.mdx",
+    "platform/netlify.zh-CN.mdx",
+    "platform/repocloud.zh-CN.mdx",
+    "platform/sealos.zh-CN.mdx",
+    "platform/vercel.zh-CN.mdx",
+    "platform/zeabur.zh-CN.mdx"
+  ],
+  "nestedMeta": {},
+  "repo": "lobe-chat",
+  "user": "lobehub"
+}
